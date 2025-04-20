@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гороскоп</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 Выберите ваш знак Зодиака</h1>
+        <div class="zodiac-grid">
+            <div class="zodiac-card" onclick="sendData('1')">♈ Овен</div>
+            <div class="zodiac-card" onclick="sendData('2')">♉ Телец</div>
+            <div class="zodiac-card" onclick="sendData('3')">♊ Близнецы</div>
+            <div class="zodiac-card" onclick="sendData('4')">♋ Рак</div>
+            <div class="zodiac-card" onclick="sendData('5')">♌ Лев</div>
+            <div class="zodiac-card" onclick="sendData('6')">♍ Дева</div>
+            <div class="zodiac-card" onclick="sendData('7')">♎ Весы</div>
+            <div class="zodiac-card" onclick="sendData('8')">♏ Скорпион</div>
+            <div class="zodiac-card" onclick="sendData('9')">♐ Стрелец</div>
+            <div class="zodiac-card" onclick="sendData('10')">♑ Козерог</div>
+            <div class="zodiac-card" onclick="sendData('11')">♒ Водолей</div>
+            <div class="zodiac-card" onclick="sendData('12')">♓ Рыбы</div>
+        </div>
+    </div>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

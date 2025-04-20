@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.zodiac-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.zodiac-card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.zodiac-card:hover {
+    background: #fff;
+    transform: scale(1.05);
+}
